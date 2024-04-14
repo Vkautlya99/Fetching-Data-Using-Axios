@@ -34,6 +34,10 @@ const Page = ({ params }) => {
                     </div>
                     <p>Website : { user.website}</p>
                     {/* Add more details here as needed */}
+                     {/* This is the Data in String Format  */}
+
+                    <h1 className='bg-gray-900 text-white p-5 rounded'><h4 className="font-semibold font-medium">Data in String Format :</h4> 
+                    {JSON.stringify(user)}</h1>
                 </div>
             ) : (
                 <p>Loading user data...</p>
